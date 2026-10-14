@@ -1,3 +1,4 @@
+import OrganizationPanel from "./organization-panel";
 import {
   ArrowUpRight,
   CalendarDays,
@@ -66,6 +67,7 @@ export default function ProtectedPage() {
           </div>
         </div>
       </section>
+      <OrganizationPanel />
 
       <section>
         <div className="mb-4 flex items-end justify-between gap-4">
