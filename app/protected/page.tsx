@@ -1,3 +1,4 @@
+import EventsPanel from "./events-panel";
 import OrganizationPanel from "./organization-panel";
 import {
   ArrowUpRight,
@@ -68,6 +69,7 @@ export default function ProtectedPage() {
         </div>
       </section>
       <OrganizationPanel />
+<EventsPanel />
 
       <section>
         <div className="mb-4 flex items-end justify-between gap-4">
